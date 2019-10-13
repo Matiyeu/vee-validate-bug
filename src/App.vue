@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <a href="https://github.com/Matiyeu/vee-validate-bug">Source on Github</a><br><br>
+
     <label for="withAccent">Placeholder with an accent</label><br>
     <ValidationProvider rules="required" v-slot="{ errors, classes }" name="Prénom">
       <input
@@ -47,6 +49,7 @@ export default {
   #app {
     text-align: center;
   }
+
   .invalid-feedback {
     color: red;
   }
