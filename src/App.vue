@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <label for="withAccent">With placeholder accent</label><br>
+    <label for="withAccent">Placeholder with an accent</label><br>
     <ValidationProvider rules="required" v-slot="{ errors, classes }" name="Prénom">
       <input
               type="text"
@@ -15,7 +15,7 @@
 
     <br><br>
 
-    <label for="withoutAccent">Without placeholder accent</label><br>
+    <label for="withoutAccent">Placeholder without accent</label><br>
     <ValidationProvider rules="required" v-slot="{ errors, classes }" name="Nom">
       <input
               type="text"
